@@ -1,6 +1,6 @@
 /* stylizacja sekcji Home - baner Hero */
 /* tło */
-.bgimage{
+.bgImage{
   height: 100vh;
   background: url('./images/heroPhoto.jpeg');
   background-size: cover;
@@ -20,4 +20,28 @@
 }
 .hero_desc{
   font-size: 2rem;
+}
+
+/* Stylizacja sekcj O mnie */
+.aboutImage{
+  width: 100%;
+}
+
+/* Sekcja certyfikatów */
+.card.certyficateText{
+  height: 280px;
+  cursor: pointer;
+}
+.card.certificateIcon{
+  font-size: 24px;
+}
+.card:hover .certificateIcon{
+  color: greenyellow;
+}
+.card.certyficateText:hover{
+  color: greenyellow;
+  border: 1px solid rebeccapurple;
+}
+.card.certificate:hover .icoPhp{
+  color: red;
 }
